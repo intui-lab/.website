@@ -1,0 +1,15 @@
+[project]
+name = "f-utils"
+version = "0.0.0"
+description = "f-utils website"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "some_license"}
+authors = [
+    {name = "Yuri Ximenes", email = "yx.dev@gmx.ie"},
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+    
