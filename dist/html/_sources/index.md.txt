@@ -5,7 +5,7 @@
 || +---------------------------------------------------------|+ |
 || |   abstraction    category theory           axiomatics   || |
 || |                                                         || |
-|| |    mathematics                  artificial inteligence  || |
+|| |    quantum computing            artificial inteligence  || |
 || |                    +--------------+                     || |
 || |   type theory      |+------------+|   turing machines   || |
 || |                    |||intuition||||                     || |
