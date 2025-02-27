@@ -48,6 +48,7 @@ html_context = {
                 {'name': 'philosophy', 'url': 'docs/libs/primitive'},
                 {'name': 'mathematics', 'url': 'docs/libs/primitive'},
                 {'name': 'development', 'url': 'docs/libs/secondary'},
+                {'name': 'quantum computing', 'url': 'docs/libs/other'},
                 {'name': 'artificial inteligence', 'url': 'docs/libs/other'}
             ]
         }
