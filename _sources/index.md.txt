@@ -18,5 +18,5 @@
 | +----------------------------------------------------------|--+
 +------------------------------------------------------------+   
 ```
-<br>
-An environment to share intuition about the foundations of what matters.
+
+> Um ambiente que emprega a `intuição` para discutir os `fundamentos` daquilo que realmente importa.
