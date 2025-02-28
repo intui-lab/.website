@@ -1,16 +1,16 @@
 from dataclasses import asdict
 from sphinxawesome_theme import ThemeOptions, LinkIcon
 
-project = 'intuui'
-copyright = '2025, intuui'
-author = 'intuuiers'
+project = 'intui-lab'
+copyright = '2025, intui-lab'
+author = 'intui-lab'
 
 extensions = ['myst_parser', 'changelog']
 
 templates_path = ['_templates']
 exclude_patterns = []
 
-html_title = 'intuui'
+html_title = 'intui-lab'
 html_theme = 'sphinxawesome_theme'
 html_static_path = ['_static']
 pygments_style_dark = "github-dark"
@@ -35,21 +35,21 @@ html_sidebars = {
 html_context = {
     'sidebar_links': {
         'docs': {
-            'title': 'about',
+            'title': 'sobre',
             'links': [
                 {'name': 'README.md', 'url': 'docs/about'},
-                {'name': 'philosophy', 'url': 'docs/philosophy'},
-                {'name': 'contributing', 'url': 'docs/contrib'},
+                {'name': 'estrutura', 'url': 'docs/philosophy'},
+                {'name': 'contribua', 'url': 'docs/contrib'},
             ]
         },
         'libs': {
-            'title': 'topics',
+            'title': 'áreas',
             'links': [
-                {'name': 'philosophy', 'url': 'docs/libs/primitive'},
-                {'name': 'mathematics', 'url': 'docs/libs/primitive'},
-                {'name': 'development', 'url': 'docs/libs/secondary'},
-                {'name': 'quantum computing', 'url': 'docs/libs/other'},
-                {'name': 'artificial inteligence', 'url': 'docs/libs/other'}
+                {'name': 'filosofia', 'url': 'docs/libs/primitive'},
+                {'name': 'matemática', 'url': 'docs/libs/primitive'},
+                {'name': 'desenvolvimento', 'url': 'docs/libs/secondary'},
+                {'name': 'computação', 'url': 'docs/libs/other'},
+                {'name': 'ai', 'url': 'docs/libs/other'}
             ]
         }
     }
@@ -63,7 +63,7 @@ theme_options = ThemeOptions(
     extra_header_link_icons = {
         "github": LinkIcon(
             icon=svg_github,
-            link='https://github.com/intuui'
+            link='https://github.com/intui-lab'
         ),
         "discord": LinkIcon(
             icon=svg_discord,
@@ -72,8 +72,8 @@ theme_options = ThemeOptions(
     },
     main_nav_links={
         "home": "index",
-        "topics": "topics",
-        "changelog": "changelog"
+        "tópicos": "topics",
+        "atualizações": "changelog"
     },
     awesome_headerlinks=True,
     show_prev_next=True

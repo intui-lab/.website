@@ -1,3 +1,3 @@
 # changelog
 
-This page contains the last changes in `intuui`.
+Página com últimas alterações no `intui-lab.
